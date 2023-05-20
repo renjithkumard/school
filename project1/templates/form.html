@@ -1,0 +1,73 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+     <link href="static/css/form.css" rel="stylesheet" type="text/css" media="all" />
+  <style>
+
+  </style>
+</head>
+<body>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required="required">
+
+    <label for="dob">DOB:</label>
+    <input type="date" id="dob" name="dob" required="required">
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required="required">
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender" required="required">
+      <option value="">Select</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required="required">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required="required">
+
+    <label for="department">Department:</label>
+    <select id="department" name="department" required="required">
+      <option value="">Select</option>
+      <option value="commerce">Commerce</option>
+      <option value="science">Science</option>
+      <option value="arts">Arts</option>
+    </select>
+
+    <label for="course">Course:</label>
+    <select id="course" name="course" required="required">
+      <option value="">Select</option>
+      <!-- Options for Commerce Department -->
+      <optgroup label="Commerce">
+        <option value="bba">BBA</option>
+        <option value="bcom">BCom</option>
+      </optgroup>
+      <!-- Options for Science Department -->
+      <optgroup label="Science">
+        <option value="bsc">BSc</option>
+        <option value="engineering">Engineering</option>
+      </optgroup>
+      <!-- Options for Arts Department -->
+      <optgroup label="Arts">
+        <option value="ba">BA</option>
+        <option value="ma">MA</option>
+      </optgroup>
+    </select>
+
+     <a href="pages" class="btn">Submit</a>
+  </form>
+
+  <div class="message">
+    Succesfully registred <a href="hom">Return to Home Page</a>
+  </div>
+</body>
+</html>

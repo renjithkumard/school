@@ -1,0 +1,76 @@
+ body {
+
+      font-family: Arial, sans-serif;
+      background: linear-gradient( #aa076b, #61045f);
+    }
+
+    form {
+      max-width: 490px;
+      height: 550px;
+      margin: 0 auto;
+      padding: 20px;
+      background: linear-gradient(to right, #a3bded, #6991c7);
+      border: 2px solid #4B086D;
+      border-radius: 19px;
+    }
+
+    form label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="number"] {
+      width: 96%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #da012d;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    form select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #da012d;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+
+  .btn{
+
+      height: 10vh;
+      margin: 0;
+      padding: 4px 2px;
+      background-color: #8A2BE2;
+      color: #fff;
+      border: none;
+      border: 1px solid #da012d;
+      border-radius: 10px;
+       box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+                 inset -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+      cursor: pointer;
+
+    }
+
+    .btn:hover {
+        background:  linear-gradient( to left,#ff105f,#ffad06);
+
+    }
+
+    .message {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #f2f2f2;
+      border: 1px solid #da012d;
+      border-radius: 5px;
+    }
+
+    .message a {
+      color: #1e90ff;
+      text-decoration: none;
+    }
